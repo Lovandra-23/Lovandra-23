@@ -1,48 +1,32 @@
 <div align="center">
   
-  <!-- HEADER DENGAN HOVER EFFECT (DISAPPEAR ON HOVER) -->
-  <div style="transition: all 0.3s ease; display: inline-block;">
-    <div style="transition: all 0.3s ease;">
-      <div style="position: relative;">
-        <div style="transition: all 0.3s ease;">
-          <div style="transition: all 0.3s ease;">
-            <div style="transition: all 0.3s ease;">
-              <div style="transition: all 0.3s ease;">
-                <div style="transition: all 0.3s ease;">
-                  <div style="transition: all 0.3s ease; opacity: 1;" onmouseover="this.style.opacity='0'; this.style.transform='translateY(-30px)';" onmouseout="this.style.opacity='1'; this.style.transform='translateY(0)';">
-                    <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
-                      <defs>
-                        <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                          <stop offset="0%" stop-color="#FF6B6B"/>
-                          <stop offset="50%" stop-color="#4ECDC4"/>
-                          <stop offset="100%" stop-color="#6C63FF"/>
-                        </linearGradient>
-                      </defs>
-                      <rect width="600" height="150" fill="url(#headerGrad)" rx="20" opacity="0.15"/>
-                      <text x="300" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#headerGrad)">
-                        LOVANDRA
-                      </text>
-                      <text x="300" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6C63FF">
-                        hover to reveal content
-                      </text>
-                      <text x="300" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">
-                        ↓ move cursor here ↓
-                      </text>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <br/><br/>
-
-  <!-- KONTEN YANG MUNCUL -->
-  <div style="animation: fadeIn 0.5s ease;">
+  <!-- HEADER DENGAN DETAIL/SUMMARY (KLIK UNTUK MUNCUL) -->
+  <details>
+    <summary>
+      <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FF6B6B"/>
+            <stop offset="50%" stop-color="#4ECDC4"/>
+            <stop offset="100%" stop-color="#6C63FF"/>
+          </linearGradient>
+        </defs>
+        <rect width="600" height="150" fill="url(#headerGrad)" rx="20" opacity="0.15"/>
+        <text x="300" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#headerGrad)">
+          LOVANDRA
+        </text>
+        <text x="300" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6C63FF">
+          click to reveal content
+        </text>
+        <text x="300" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">
+          ⬇ click here ⬇
+        </text>
+      </svg>
+    </summary>
+    
+    <br/><br/>
+    
+    <!-- KONTEN YANG MUNCUL SETELAH DIKLIK -->
     
     <!-- INTRODUCTION -->
     <h2 style="color: #FF6B6B;">✦ digital architect ✦</h2>
@@ -100,7 +84,7 @@
         </td>
         <td><span style="color: #3776AB; font-size: 12px;">learning</span></td>
       </tr>
-    </table>
+     </table>
     
     <br/>
     
@@ -205,23 +189,22 @@
     </p>
     <p style="color: #666; font-size: 11px;">lovandra · 2026 · available for collaboration</p>
     
-  </div>
+  </details>
   
 </div>
 
-<!-- CSS ANIMATION SUPPORTED IN README -->
 <style>
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  div[style*="animation: fadeIn"] {
-    animation: fadeIn 0.6s ease-out;
-  }
   a {
     text-decoration: none;
   }
-  table {
-    border-collapse: collapse;
+  summary {
+    cursor: pointer;
+    display: inline-block;
+  }
+  summary:focus {
+    outline: none;
+  }
+  details {
+    display: inline-block;
   }
 </style>
