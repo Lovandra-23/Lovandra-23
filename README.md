@@ -12,14 +12,8 @@ Hello! I'm Lovandra, I'm a student from Indonesia who is interested in the world
 ![](https://nirzak-streak-stats.vercel.app/?user=Lovandra-23&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Lovandra-23&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Lovandra-23&theme=shadow_green&no-frame=false&no-bg=false&margin-w=4)
-
----
-[![](https://visitcount.itsvg.in/api?id=Lovandra-23&icon=0&color=1)](https://visitcount.itsvg.in)
-
   ## 💰 You can help me by Donating
-  [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/Lovandra) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/Lovandra) 
+  [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/Lovandra) 
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
